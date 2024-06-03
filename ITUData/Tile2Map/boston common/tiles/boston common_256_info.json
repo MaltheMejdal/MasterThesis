@@ -1,0 +1,40 @@
+{
+    "name": "boston common",
+    "bbox": [
+        42.3522011985,
+        42.357782825,
+        -71.0695266724,
+        -71.0619735718
+    ],
+    "location": [
+        42.3524608,
+        -71.069224,
+        42.3576063,
+        -71.0621238
+    ],
+    "size": 512,
+    "zoom": 20,
+    "crs": 4326,
+    "tile_step": 2,
+    "project": {
+        "config": "C:\\Users\\MMejd\\OneDrive\\Skrivebord\\tile2net-main\\tile2net-main\\src\\tile2net\\tileseg\\config.py",
+        "assets": {
+            "weights": {
+                "satellite_2021": "C:\\Users\\MMejd\\OneDrive\\Skrivebord\\tile2net-main\\tile2net-main\\src\\tile2net\\raster\\resources\\assets\\weights\\satellite_2021.pth",
+                "hrnetv2_w48_imagenet_pretrained": "C:\\Users\\MMejd\\OneDrive\\Skrivebord\\tile2net-main\\tile2net-main\\src\\tile2net\\raster\\resources\\assets\\weights\\hrnetv2_w48_imagenet_pretrained.pth"
+            }
+        },
+        "segmentation": "example_dir\\boston common\\segmentation\\boston common\\256_20_2",
+        "tiles": {
+            "info": "example_dir\\boston common\\tiles\\boston common_256_info.json",
+            "static": "example_dir\\boston common\\tiles\\static\\ma\\256_20",
+            "stitched": "example_dir\\boston common\\tiles\\stitched\\256_20_2"
+        },
+        "polygons": "example_dir\\boston common\\polygons",
+        "network": "example_dir\\boston common\\network",
+        "name": "boston common"
+    },
+    "debug": false,
+    "source": "ma",
+    "output_dir": "./example_dir"
+}
